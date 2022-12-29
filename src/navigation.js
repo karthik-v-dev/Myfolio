@@ -5,29 +5,24 @@ import { Link } from "react-router-dom";
 import Colorpicker  from "./components/colorpicker";
 import Login from "./components/login";
 import Signup from "./components/signup";
+import Myimg from './myimg.jpg'
 
 
 function Navgation() {
-  const [active, setActive] = useState({ activeItem: "Home" });
-  const login = false;
-//   const login = true;
+  const [active, setActive] = useState({ activeItem: "HOME" });
+  // const login = false;
+   const login = true;
 
   const handleItemClick = (e, { name }) => setActive({ activeItem: name });
-  //  const loginClick=()=>{
-  // //   <Login/>
-  //  }
-  //  const signupClick=()=>{
-  // //   <Signup/>
-  //  }
 
   const { activeItem } = active;
-  //  const path1= '/'+{...activeItem}+'/'+login
-  // console.log(path1)
+ 
   return (
     <div>
-     <Colorpicker /> 
+     {window.innerWidth <755&&<Colorpicker /> }
 
-      {login?<Menu className="my_border" secondary vertical> <Menu.Item><img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png'alt='user'/> <span>Karthik</span></Menu.Item></Menu>
+      {login?<Menu className="my_border" secondary vertical> <Menu.Item><img class="ui avatar image" src={Myimg} alt="My_img"/>
+<span className="text-weight">KARTHIK V</span></Menu.Item></Menu>
       :<Menu className="my_border" secondary vertical>
         <Menu.Item>
           <Signup />
@@ -41,23 +36,30 @@ function Navgation() {
       <Menu pointing secondary vertical className="mt-0">
         <Link to="/">
           <Menu.Item
-            name="Home"
-            active={activeItem === "Home"}
+            name="HOME"
+            active={activeItem === "HOME"}
             onClick={handleItemClick}
           />
         </Link>
-        <Link to="/mydesign">
+        <Link to="/aboutme">
           <Menu.Item
-            name="Mydesigns"
-            active={activeItem === "Mydesigns"}
+            name="ABOUT ME"
+            active={activeItem === "ABOUT ME"}
+            onClick={handleItemClick}
+          />
+        </Link>
+        <Link to="/projects">
+          <Menu.Item
+            name="PROJECTS"
+            active={activeItem === "PROJECTS"}
             onClick={handleItemClick}
           />
         </Link>
         <Link to="/contactme">
           {" "}
           <Menu.Item
-            name="Contact Me"
-            active={activeItem === "Contact Me"}
+            name="CONTACT ME"
+            active={activeItem === "CONTACT ME"}
             onClick={handleItemClick}
           />
         </Link>
