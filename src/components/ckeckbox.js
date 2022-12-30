@@ -36,7 +36,11 @@ const colorBlack=()=>{
       // document.body.style.background=colr ;
       document.querySelector('.slider').style.background="white";
       // document.body.style.color='white';
-      
+      if(document.querySelector('.F')!==null){
+        document.querySelector('.F').style.background=colr;
+      }else{
+        document.querySelector('.F').style.background='rgb(255, 255, 255)';
+      }
      
 }
 const colorWhite=()=>{
@@ -50,7 +54,11 @@ const colorWhite=()=>{
       }
       if(document.querySelector('.slider')!== null)
       {document.querySelector('.slider').style.background = colr;}
-}
+      if(document.querySelector('.F')!==null){
+        document.querySelector('.F').style.background='rgb(255, 255, 255)';
+      }
+    }
+
 return(
   <>
   

@@ -5,7 +5,7 @@ import SideStick from "../sidestickers";
 export default function Footer() {
   return (
     <div className="footer-contaner">
-      <div className="d-flex-rowcol">
+      <div className="d-flex-rowcol_1">
         <div style={{width:'50%',height:'auto',textAlign:'start'}}>
           <h1 className="my-35">KARTHIK V</h1>
           <p>
@@ -21,7 +21,7 @@ export default function Footer() {
           </p>
         </div>
       </div>
-      <hr />
+      <hr className='hr1' />
       <div className="text-center">
         <p>© Copyright 2022. Made by <a href="/" className="atcopy">KARTHIK V</a></p>
       </div>

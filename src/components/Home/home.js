@@ -8,7 +8,7 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <div className="F-one ui sizer">
+      <div className="F-home ui sizer F">
         <h1 className="ui huge header">HEY, I'M KARTHIK VOORUGONDA</h1>
         <p>
           A Frontend focused Web Developer building the Frontend of Websites and
