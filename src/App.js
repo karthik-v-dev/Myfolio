@@ -26,10 +26,10 @@ const App = () => {
       </div>
       <div className="side_body">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/aboutme" element={<Aboutme />} />
-          <Route path="/projects" element={<Mydesign />} />
-          <Route path="/contactme" element={<Contactme />} />
+          <Route path="https://karthik-v-dev.github.io/Myfolio/home/" element={<Home />} />
+          <Route path="https://karthik-v-dev.github.io/Myfolio/aboutme/" element={<Aboutme />} />
+          <Route path="https://karthik-v-dev.github.io/Myfolio/projects/" element={<Mydesign />} />
+          <Route path="https://karthik-v-dev.github.io/Myfolio/contactme/" element={<Contactme />} />
         </Routes>
       </div>
      
