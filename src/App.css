@@ -230,8 +230,11 @@ input:checked + .slider::after {
   vertical-align:middle;
   
 }
-.my-35 {
-  margin: 35px 0px !important;
+.my-25 {
+  margin: 25px 0px !important;
+}
+.mr-35{
+  margin-right: 35px;
 }
 .m-35 {
   margin: 35px !important;
@@ -247,7 +250,7 @@ input:checked + .slider::after {
   width: 3.5rem;
   border: none;
 }
-.F-home,.F-contact,.F-aboutme {
+.F-home,.F-contact,.F-aboutme,.F-mydesign {
   text-align: center;
   letter-spacing: 2px;
   height:380px;
@@ -266,4 +269,30 @@ input:checked + .slider::after {
 .F-aboutme{
   padding: 1% 5% 1% 5%;
   overflow-x: hidden;
+}
+.F-mydesign{
+  padding: 1% 5% 1% 5%;
+  overflow-x:hidden ;
+  text-align: justify;
+}
+.my-slide img{
+  max-width: 100%;
+  height: auto;
+}
+.ui .two{
+  margin:30px -35px 25px -35px !important;
+}
+.my-slide{
+  padding: 1% 5% 1% 5%;
+}
+.my-slide span{
+  color: #ff5512;
+  text-decoration: 1px dashed #002244;
+}
+.hand{
+  color: #e25822 !important;
+  font-size: x-large !important;
+}
+.my-slide h1,p,button{
+  padding: 10px 0px;
 }

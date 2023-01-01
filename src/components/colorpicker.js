@@ -5,8 +5,6 @@ import CheckboxToggle from "./ckeckbox";
 const ColorBox = styled.div`
   background-color: ${({ currentColor }) => currentColor};
   margin: 0 10px 1px;
-  
-  
 `;
 
 const RangeInput = ({ label, value, max = 100, onChange }) => {
@@ -34,7 +32,7 @@ const Colorpicker=()=>{
   const currentColor = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
 
   return (
-<div className="checkbx" style={{ paddingLeft: "18%", marginBottom: "10px" }}>
+<div className="checkbx" style={{ paddingLeft: "18%", marginBottom: "10px",paddingTop:'3px' }}>
     <CheckboxToggle currentColor={currentColor}/>
       <ColorBox currentColor={currentColor} />
 

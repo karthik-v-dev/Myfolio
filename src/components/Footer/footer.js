@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="footer-contaner">
       <div className="d-flex-rowcol_1">
         <div style={{width:'50%',height:'auto',textAlign:'start'}}>
-          <h1 className="my-35">KARTHIK V</h1>
+          <h1 className="my-25">KARTHIK V</h1>
           <p>
             A Frontend focused Web Developer building the Frontend of Websites
             and Web Applications that leads to the success of the overall
@@ -15,7 +15,7 @@ export default function Footer() {
           </p>
         </div>
         <div style={{width:'50%',height:'auto',textAlign:'end'}}>
-          <h1 className="m-35">SOCIAL</h1>
+          <h1 className="m-25 mr-35">SOCIAL</h1>
           <p>
            <SideStick/>
           </p>
