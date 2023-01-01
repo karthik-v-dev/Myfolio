@@ -34,28 +34,28 @@ function Navgation() {
       </Menu>
 }
       <Menu pointing secondary vertical className="mt-0">
-        <Link to="https://karthik-v-dev.github.io/Myfolio/home/">
+        <Link to="home/">
           <Menu.Item
             name="HOME"
             active={activeItem === "HOME"}
             onClick={handleItemClick}
           />
         </Link>
-        <Link to="https://karthik-v-dev.github.io/Myfolio/aboutme/">
+        <Link to="aboutme/">
           <Menu.Item
             name="ABOUT ME"
             active={activeItem === "ABOUT ME"}
             onClick={handleItemClick}
           />
         </Link>
-        <Link to="https://karthik-v-dev.github.io/Myfolio/projects/">
+        <Link to="projects/">
           <Menu.Item
             name="PROJECTS"
             active={activeItem === "PROJECTS"}
             onClick={handleItemClick}
           />
         </Link>
-        <Link to="https://karthik-v-dev.github.io/Myfolio/contactme/">
+        <Link to="contactme/">
           {" "}
           <Menu.Item
             name="CONTACT ME"
