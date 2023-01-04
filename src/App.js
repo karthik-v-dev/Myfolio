@@ -26,10 +26,10 @@ const App = () => {
       </div>
       <div className="side_body">
         <Routes>
-          <Route path="home/" element={<Home />} />
-          <Route path="aboutme/" element={<Aboutme />} />
-          <Route path="projects/" element={<Mydesign />} />
-          <Route path="contactme/" element={<Contactme />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutme" element={<Aboutme />} />
+          <Route path="/projects" element={<Mydesign />} />
+          <Route path="/contactme" element={<Contactme />} />
         </Routes>
       </div>
      

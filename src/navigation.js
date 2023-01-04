@@ -34,28 +34,28 @@ function Navgation() {
       </Menu>
 }
       <Menu pointing secondary vertical className="mt-0">
-        <Link to="home/">
+        <Link to="/">
           <Menu.Item
             name="HOME"
             active={activeItem === "HOME"}
             onClick={handleItemClick}
           />
         </Link>
-        <Link to="aboutme/">
+        <Link to="/aboutme">
           <Menu.Item
             name="ABOUT ME"
             active={activeItem === "ABOUT ME"}
             onClick={handleItemClick}
           />
         </Link>
-        <Link to="projects/">
+        <Link to="/projects">
           <Menu.Item
             name="PROJECTS"
             active={activeItem === "PROJECTS"}
             onClick={handleItemClick}
           />
         </Link>
-        <Link to="contactme/">
+        <Link to="/contactme">
           {" "}
           <Menu.Item
             name="CONTACT ME"

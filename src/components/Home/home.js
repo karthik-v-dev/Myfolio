@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router-dom";
 // import { Menu,Button,Icon } from 'semantic-ui-react'
 // import { useState } from 'react'
 // import Login from './components/login'
@@ -14,7 +14,7 @@ function Home() {
           A Frontend focused Web Developer building the Frontend of Websites and
           Web Applications that leads to the success of the overall product
         </p>
-        <button class="ui yellow button">PROJECTS</button>
+        <Link to="/projects"><button class="ui yellow button">PROJECTS</button></Link>
       </div>
     </div>
   );
