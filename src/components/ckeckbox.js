@@ -3,7 +3,7 @@ import React,{ useState }  from "react";
 
 
 const CheckboxToggle = (props) => {
-let[check,setCheck]=useState(false);
+let[val,setVal]=useState(false);
 var colr =props.currentColor;
 // console.log(colr.split('')[14]+colr.split('')[15])
  console.log(colr.split('')[4]+colr.split('')[5]+colr.split('')[6])
@@ -64,12 +64,12 @@ return(
   <>
   
     <label className="toggle">
-      <input type="checkbox" checked={check} onClick={()=>setCheck(!check)}/>
+      <input type="checkbox" checked={val} onClick={()=>setVal(!val)}/>
       <span className="slider rounded"></span>
       
     </label>
     
-   <span onClick={check?colorBlack():colorWhite()}></span>
+   <span onClick={val?colorBlack():colorWhite()}></span>
  
   
   </>

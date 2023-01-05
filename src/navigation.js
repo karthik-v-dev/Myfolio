@@ -21,7 +21,7 @@ function Navgation() {
     <div>
      {window.innerWidth <755&&<Colorpicker /> }
 
-      {login?<Menu className="my_border" secondary vertical> <Menu.Item><img class="ui avatar image" src={Myimg} alt="My_img"/>
+      {login?<Menu className="my_border" secondary vertical> <Menu.Item><img className="ui avatar image" src={Myimg} alt="My_img"/>
 <span className="text-weight">KARTHIK V</span></Menu.Item></Menu>
       :<Menu className="my_border" secondary vertical>
         <Menu.Item>

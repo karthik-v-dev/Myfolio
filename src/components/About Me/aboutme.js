@@ -46,7 +46,7 @@ export default function Aboutme() {
             <span className="skill-tab text-weight">CSS3</span>
             <span className="skill-tab text-weight">BOOTSTRAP-4</span>
             <span className="skill-tab text-weight">SEMATIC UI</span>
-            <span className="skill-tab text-weight">METERIAL UI</span>
+            <span className="skill-tab text-weight">MATERIAL UI</span>
             <span className="skill-tab text-weight">JAVASCRIPT</span>
             <span className="skill-tab text-weight">JQUERY</span>
             <span className="skill-tab text-weight">REACT JS</span>
